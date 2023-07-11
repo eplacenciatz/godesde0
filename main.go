@@ -1,6 +1,8 @@
 package main
 
-import "github.com/eplacenciatz/godesde0/iteraciones"
+import (
+	"github.com/eplacenciatz/godesde0/ejercicios"
+)
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(123)
@@ -32,6 +34,9 @@ func main() {
 	// teclado.IngresoNumeros()
 
 	// Iteraciones
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
+
+	// EJERCICIO 02 Tabla multiplicar
+	ejercicios.TablaMultiplicar()
 
 }

@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+
+	"github.com/eplacenciatz/godesde0/ejercicios"
 )
 
 func main() {
@@ -10,19 +11,25 @@ func main() {
 	// fmt.Println(estado)
 	// fmt.Println(texto)
 
-	if os := runtime.GOOS; os == "linux" || os == "OS X." {
-		fmt.Println("Esto no es Windows, es", os)
-	} else {
-		fmt.Println("Esto es", os)
-	}
+	// CONDICIONALES
+	// if os := runtime.GOOS; os == "linux" || os == "OS X." {
+	// 	fmt.Println("Esto no es Windows, es", os)
+	// } else {
+	// 	fmt.Println("Esto es", os)
+	// }
 
-	switch os := runtime.GOOS; os {
-	case "linux":
-		fmt.Println("Esto es Linux")
-	case "darwin":
-		fmt.Println("Esto es Darwin")
-	default:
-		fmt.Printf("%s \n", os)
-	}
+	// switch os := runtime.GOOS; os {
+	// case "linux":
+	// 	fmt.Println("Esto es Linux")
+	// case "darwin":
+	// 	fmt.Println("Esto es Darwin")
+	// default:
+	// 	fmt.Printf("%s \n", os)
+	// }
+
+	// EJERCICIO 01
+	numero, texto := ejercicios.EsMayorACien("10")
+	fmt.Println(numero)
+	fmt.Println(texto)
 
 }

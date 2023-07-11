@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/eplacenciatz/godesde0/teclado"
-)
+import "github.com/eplacenciatz/godesde0/iteraciones"
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(123)
@@ -31,6 +29,9 @@ func main() {
 	// fmt.Println(texto)
 
 	// Captura de datos por pantalla
-	teclado.IngresoNumeros()
+	// teclado.IngresoNumeros()
+
+	// Iteraciones
+	iteraciones.Iterar()
 
 }

@@ -1,9 +1,13 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/eplacenciatz/godesde0/variables"
 )
 
 func main() {
-	variables.MuestroEnteros()
+	estado, texto := variables.ConviertoaTexto(123)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }

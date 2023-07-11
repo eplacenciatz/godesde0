@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/eplacenciatz/godesde0/ejercicios"
+	"github.com/eplacenciatz/godesde0/teclado"
 )
 
 func main() {
@@ -28,8 +26,11 @@ func main() {
 	// }
 
 	// EJERCICIO 01
-	numero, texto := ejercicios.EsMayorACien("10")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	// numero, texto := ejercicios.EsMayorACien("10")
+	// fmt.Println(numero)
+	// fmt.Println(texto)
+
+	// Captura de datos por pantalla
+	teclado.IngresoNumeros()
 
 }

@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/eplacenciatz/godesde0/ejercicios"
-)
+import "github.com/eplacenciatz/godesde0/files"
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(123)
@@ -37,6 +35,14 @@ func main() {
 	// iteraciones.Iterar()
 
 	// EJERCICIO 02 Tabla multiplicar
-	ejercicios.TablaMultiplicar()
+	// fmt.Println(ejercicios.TablaMultiplicar())
 
+	// Manejo de archivos
+	// files.GrabaTabla()
+
+	// files.SumaTabla()
+
+	// files.LeoArchivo()
+
+	files.LeoArchivo2()
 }

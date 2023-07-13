@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/eplacenciatz/godesde0/arreglos_slices"
+	"github.com/eplacenciatz/godesde0/mapas"
 )
 
 func main() {
@@ -58,5 +58,8 @@ func main() {
 	// Array & Slices
 	// arreglos_slices.MuestroArreglos()
 	// arreglos_slices.MuestraSlice()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+
+	// Mapas
+	mapas.MostrarMapas()
 }

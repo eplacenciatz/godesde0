@@ -50,5 +50,8 @@ func main() {
 
 	// Funciones Anónimas y Closures
 	// funciones.Calculos()
-	funciones.LlamarClosure()
+	// funciones.LlamarClosure()
+
+	//Recursión
+	funciones.Exponencia(2)
 }

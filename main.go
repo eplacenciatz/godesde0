@@ -1,6 +1,8 @@
 package main
 
-import "github.com/eplacenciatz/godesde0/files"
+import (
+	"github.com/eplacenciatz/godesde0/funciones"
+)
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(123)
@@ -44,5 +46,9 @@ func main() {
 
 	// files.LeoArchivo()
 
-	files.LeoArchivo2()
+	// files.LeoArchivo2()
+
+	// Funciones Anónimas y Closures
+	// funciones.Calculos()
+	funciones.LlamarClosure()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/eplacenciatz/godesde0/funciones"
+	"github.com/eplacenciatz/godesde0/arreglos_slices"
 )
 
 func main() {
@@ -53,5 +53,10 @@ func main() {
 	// funciones.LlamarClosure()
 
 	//Recursión
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+
+	// Array & Slices
+	// arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestraSlice()
+	arreglos_slices.Capacidad()
 }

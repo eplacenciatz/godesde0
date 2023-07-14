@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/eplacenciatz/godesde0/users"
+	e "github.com/eplacenciatz/godesde0/ejer_interfaces"
+	"github.com/eplacenciatz/godesde0/models"
 )
 
 func main() {
@@ -64,5 +65,12 @@ func main() {
 	// mapas.MostrarMapas()
 
 	// Estructuras POO
-	users.AltaUsuario()
+	// users.AltaUsuario()
+
+	// Interfaces POO
+	Pedro := new(models.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(models.Mujer)
+	e.HumanosRespirando(Maria)
 }

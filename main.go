@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/eplacenciatz/godesde0/mapas"
+	"github.com/eplacenciatz/godesde0/users"
 )
 
 func main() {
@@ -61,5 +61,8 @@ func main() {
 	// arreglos_slices.Capacidad()
 
 	// Mapas
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+
+	// Estructuras POO
+	users.AltaUsuario()
 }

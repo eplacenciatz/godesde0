@@ -23,6 +23,6 @@ func (h *Hombre) Sexo() string {
 	return "Hombre"
 }
 
-func (h *Hombre) EstaVivo() {
-	h.vivo = true
+func (h *Hombre) EstaVivo() bool {
+	return true
 }

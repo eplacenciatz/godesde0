@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/eplacenciatz/godesde0/ejer_interfaces"
-	"github.com/eplacenciatz/godesde0/models"
+	"github.com/eplacenciatz/godesde0/defer_panic"
 )
 
 func main() {
@@ -68,9 +67,13 @@ func main() {
 	// users.AltaUsuario()
 
 	// Interfaces POO
-	Pedro := new(models.Hombre)
-	e.HumanosRespirando(Pedro)
+	// Pedro := new(models.Hombre)
+	// e.HumanosRespirando(Pedro)
 
-	Maria := new(models.Mujer)
-	e.HumanosRespirando(Maria)
+	// Maria := new(models.Mujer)
+	// e.HumanosRespirando(Maria)
+
+	// Defer, Panic & Recover
+	// defer_panic.VemosDefer()
+	defer_panic.EjemploPanic()
 }

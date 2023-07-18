@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/eplacenciatz/godesde0/goroutines"
-)
+import "github.com/eplacenciatz/godesde0/webserver"
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(123)
@@ -87,13 +83,16 @@ func main() {
 	// fmt.Scanln(&x)
 
 	// Channels (Async)
-	canal1 := make(chan bool)
-	go goroutines.MiNombreLentooo("Pepe LePu", canal1)
-	defer func() {
-		<-canal1
-	}()
-	fmt.Println("Estoy aqui")
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLentooo("Pepe LePu", canal1)
+	// defer func() {
+	// 	<-canal1
+	// }()
+	// fmt.Println("Estoy aqui")
 
 	// <-canal1
+
+	// WebServer
+	webserver.MiWebServer()
 
 }

@@ -1,6 +1,8 @@
 package main
 
-import "github.com/eplacenciatz/godesde0/webserver"
+import (
+	"github.com/eplacenciatz/godesde0/middleware"
+)
 
 func main() {
 	// estado, texto := variables.ConviertoaTexto(123)
@@ -93,6 +95,9 @@ func main() {
 	// <-canal1
 
 	// WebServer
-	webserver.MiWebServer()
+	// webserver.MiWebServer()
+
+	// Middleware
+	middleware.MiMiddleware()
 
 }

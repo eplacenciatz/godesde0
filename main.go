@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/eplacenciatz/godesde0/defer_panic"
+	"fmt"
+
+	"github.com/eplacenciatz/godesde0/goroutines"
 )
 
 func main() {
@@ -75,5 +77,12 @@ func main() {
 
 	// Defer, Panic & Recover
 	// defer_panic.VemosDefer()
-	defer_panic.EjemploPanic()
+	// defer_panic.EjemploPanic()
+
+	// GORoutines (Async)
+	go goroutines.MiNombreLentooo("Pepe LePu")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }

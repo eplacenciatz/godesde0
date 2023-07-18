@@ -80,9 +80,20 @@ func main() {
 	// defer_panic.EjemploPanic()
 
 	// GORoutines (Async)
-	go goroutines.MiNombreLentooo("Pepe LePu")
+	// go goroutines.MiNombreLentooo("Pepe LePu")
 
+	// fmt.Println("Estoy aqui")
+	// var x string
+	// fmt.Scanln(&x)
+
+	// Channels (Async)
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLentooo("Pepe LePu", canal1)
+	defer func() {
+		<-canal1
+	}()
 	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+
+	// <-canal1
+
 }
